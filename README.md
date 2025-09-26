@@ -1,12 +1,14 @@
 # NITC Assessment Management System
 
 ## 📌 Project Overview
-The **NITC Assessment Management System** is a generalized platform designed to plan, organize, and conduct academic evaluations such as lab assessments, project reviews, and admission tests at NITC.  
+
+The **NITC Assessment Management System** is a generalized platform designed to plan, organize, and conduct academic evaluations such as lab assessments, project reviews, and admission tests at NITC.
 It provides a centralized system for faculty members to create evaluation tasks, assign evaluators, manage candidate details, and generate automated reports.
 
 ---
 
 ## 🎯 Objectives
+
 - Provide a **generalized platform** for conducting any type of academic evaluation.
 - Enable **secure faculty authentication** via NITC email.
 - Simplify **management of candidates and evaluators** using bulk uploads (CSV/Excel).
@@ -18,21 +20,27 @@ It provides a centralized system for faculty members to create evaluation tasks,
 ---
 
 ## ✨ Features
+
 - **Faculty Authentication**
+
   - Email-based login restricted to official NITC IDs.
 
 - **Evaluation Task Management**
+
   - Faculty can create, view, and manage tasks.
   - Candidate and evaluator data import from CSV/Excel.
 
 - **Candidate–Evaluator Mapping**
+
   - Random mapping ensures fair distribution of evaluations.
   - Manual mapping option available for custom control.
 
 - **Seating Arrangement**
+
   - Automatic seating plan generation for candidates if required.
 
 - **Evaluator Dashboard**
+
   - View assigned candidates.
   - Enter and manage evaluation scores.
 
@@ -42,6 +50,7 @@ It provides a centralized system for faculty members to create evaluation tasks,
 ---
 
 ## 🏗️ System Modules
+
 1. **Authentication Module** – Email-based faculty login.
 2. **Task Creation Module** – Create and configure evaluation tasks.
 3. **Data Upload Module** – Import candidate and evaluator details.
@@ -53,22 +62,26 @@ It provides a centralized system for faculty members to create evaluation tasks,
 ---
 
 ## 🛠️ Technology Stack (Suggested)
-- **Frontend:** React.js / Vue.js  
-- **Backend:**  Node.js (JavaScript)  
-- **Database:** MongoDB  
-- **Authentication:** Email-based (NITC domain validation)  
-- **File Handling:** CSV & Excel support (Pandas / SheetJS)  
+
+- **Frontend:** React.js / Vue.js
+- **Backend:** Node.js (JavaScript)
+- **Database:** MongoDB
+- **Authentication:** Email-based (NITC domain validation)
+- **File Handling:** CSV & Excel support (Pandas / SheetJS)
 
 ---
 
 ## 🚀 Installation & Setup
+
 ### Prerequisites
+
 - MongoDB
 - Git
 - React
-- 
+-
 
 ### Steps
+
 ```bash
 # Clone repository
 git clone https://github.com/<your-repo>/nitc-assessment-system.git
@@ -86,3 +99,7 @@ npm install
 # Run servers
 npm start                            # Frontend
 python manage.py runserver           # Django backend (example)
+''
+```
+
+SETUP DONE - DIKSHANT
