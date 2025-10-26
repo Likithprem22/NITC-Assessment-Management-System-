@@ -1,6 +1,7 @@
 const landingPage = () => {
   return (
     <div className="landing-container">
+      <div>Landing Page</div>
       <div className="box">Admin</div>
       <div className="box">Faculty</div>
       <div className="box">Evaluator</div>
