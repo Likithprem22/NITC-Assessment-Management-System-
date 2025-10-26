@@ -15,15 +15,8 @@ Welcome, team! To keep our project organized and our Git history clean, please f
 ### ## Branch Naming Convention
 
 Please name your branches using this format: `type/short-description`
-<<<<<<< HEAD
-DK-Dev
-likith_Dev
-Deepak_Dev
-
-=======
 DK-DEV
 likith_Dev
->>>>>>> main
 
 * **`feature/`**: For adding a new feature (e.g., `feature/user-login-form`).
 * **`fix/`**: For fixing a bug (e.g., `fix/navbar-alignment-issue`).
