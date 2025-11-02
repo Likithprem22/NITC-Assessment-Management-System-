@@ -15,6 +15,8 @@ Welcome, team! To keep our project organized and our Git history clean, please f
 ### ## Branch Naming Convention
 
 Please name your branches using this format: `type/short-description`
+DK-DEV
+likith_Dev
 
 DK_Dev
 likith_Dev
